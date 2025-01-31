@@ -52,7 +52,6 @@ class Computation:
 
     def listDicPrim(self, n):
         Ldiv = [i for i in range(1, n + 1) if n % i == 0]
-        print(Ldiv)
         primes = []
 
         for i in Ldiv:
